@@ -1,4 +1,5 @@
-<?php namespace Tests\Theme;
+<?php
+namespace Tests\Theme;
 
 use Framework\Theme\Theme;
 use PHPUnit\Framework\TestCase;
