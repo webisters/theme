@@ -1,16 +1,33 @@
 {
     "name": "webisters/theme",
-    "type": "library",
     "description": "Webisters Theme Library",
+    "license": "MIT",
+    "type": "library",
     "keywords": [
-        "theme"
+        "theme",
+        "layout",
+        "view",
+        "html"
     ],
-    "homepage": "https://webisters.com/docs/theme",
-    "license": "proprietary",
     "authors": [
         {
             "name": "Hafiz Muhammad Moaz",
-            "email": "hafizmoazkhalid@gmail.com"
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/theme",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/theme/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/theme",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
         }
     ],
     "require": {
@@ -18,13 +35,10 @@
     },
     "require-dev": {
         "webisters/coding-standard": "*",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^10.5"
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Framework\\Theme\\": "src/"
@@ -35,14 +49,9 @@
             "Tests\\Theme\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "support": {
-        "email": "hafizmoazkhalid@gmail.com",
-        "issues": "https://gitlab.com/webisters/libraries/theme/issues",
-        "wiki": "https://gitlab.com/webisters/libraries/theme/wikis/home",
-        "source": "https://gitlab.com/webisters/libraries/theme",
-        "docs": "https://webisters.gitlab.io/libraries/theme/docs/"
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     }
 }
-
